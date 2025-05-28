@@ -1,4 +1,4 @@
-targets:
+targetCustomizations:
 - name: team-a
   clusterSelector:
     matchLabels:
