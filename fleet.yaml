@@ -1,11 +1,13 @@
 targetCustomizations:
 - name: team-a
+  namespace: team-a
   clusterSelector:
     matchLabels:
       env: dev
   kustomize:
     dir: overlays/team-a
 - name: team-b
+  namespace: team-b
   clusterSelector:
     matchLabels:
       env: dev
