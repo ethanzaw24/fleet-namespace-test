@@ -1,1 +1,13 @@
-
+targets:
+- name: team-a
+  clusterSelector:
+    matchLabels:
+      env: dev
+  kustomize:
+    dir: overlays/team-a
+- name: team-b
+  clusterSelector:
+    matchLabels:
+      env: dev
+  kustomize:
+    dir: overlays/team-b
