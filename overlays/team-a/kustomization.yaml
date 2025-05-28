@@ -1,4 +1,5 @@
-namespace: team-a
 resources:
   - ../../base
   - namespace.yaml
+patchesStrategicMerge:
+- namespace.yaml
