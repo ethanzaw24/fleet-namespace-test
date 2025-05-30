@@ -1,4 +1,0 @@
-namespace: team-a
-resources:
-  - deployment.yaml
-  - namespace.yaml
