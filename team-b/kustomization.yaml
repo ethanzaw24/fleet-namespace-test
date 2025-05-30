@@ -1,4 +1,4 @@
-namespace: team-a
+namespace: team-b
 resources:
   - deployment.yaml
   - namespace.yaml
