@@ -1,3 +1,4 @@
+namespace: team-a
 resources:
   - ../../base
-#  - namespace.yaml
+  - namespace.yaml
