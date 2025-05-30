@@ -1,4 +1,4 @@
 namespace: team-b
 resources:
-  - ../../base
+  - deployment.yaml
   - namespace.yaml
