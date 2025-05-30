@@ -1,3 +1,0 @@
-namespace: team-a
-kustomize:
-  dir: "overlays/team-a"
